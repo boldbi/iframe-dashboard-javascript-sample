@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" style="width:100%; height:100%;">
+
+<head>
+   <title>Embedded BI</title>
+   <script>window.destroyAll = function () { try { ej.widget.destroyAll($('.e-js').off()); } catch (e) { } $(document.body).html('-'); CollectGarbage(); }; </script>
+   <script type="text/javascript" src="/scripts/jquery-1.10.2.min.js"></script>
+   <link href="style/dashboardlisting.css" rel="stylesheet">
+   <script src="/scripts/Properties.js"></script>
+   <script src="/scripts/DashboardListing.js"></script>
+</head>
+
+<body style="width: 100%;height: 100%">
+   <!--Error modal for not appending embedConfig.json-->
+   <div class="errorPopup">
+      <div class="errorContent"></div>
+   </div>
+
+   <!--Dashboard listing container-->
+   <div id="container">
+      <div class="header-section">
+         <div id="grid-title">All Dashboard</div>
+      </div>
+      <div id="panel"></div>
+   </div>
+
+   <!--Dashboard viewer-->
+   <div id="viewer-section">
+      <div id="viewer-header">
+         <button id="create-dashboard">Create</button>
+         <button id="edit-dashboard">Edit</button>
+      </div>
+      <div id="dashboard">
+         <div id="message" style="display: block; text-align: center; margin-top: 300px; font-size: 20px;">To view,
+            please select any Dashboard</div>
+      </div>
+   </div>
+</body>
+
+</html>

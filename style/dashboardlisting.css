@@ -1,0 +1,106 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    font-family: Roboto;
+    font-size: 13px;
+}
+
+#container{
+    width: 13%;
+    float: left;
+    height: 100%;
+    float: left;
+    background: #f4f4f4;
+    height: 100%;
+    box-shadow: 2px 0 4px 0 rgba(0,0,0,.12);
+	overflow: auto;
+	overflow-x: hidden;
+}
+#grid-title{
+    font-size: 17px;
+    border-bottom: 1px solid #333;
+    padding: 15px; 
+}
+#panel{
+    width: 100%;
+    float: left;
+    background: #f4f4f4;
+    overflow: auto;
+}
+#dashboard{
+    width: 100%;
+    float: left;
+    height: 100%;
+    display: block;
+}
+.dashboard-item{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+#viewer-section{
+    width: 87%;
+    float: left;
+}
+#viewer-header{
+    padding: 10px;
+    display: block;
+    float: left;
+    width: 100%;
+}
+#create-dashboard{
+    float: right;
+    margin-right: 20px;
+    background: #0565ff;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    height: 28px;
+    line-height: 28px;
+    min-width: 90px;
+    outline: none;
+    text-align: center;
+    border: 1px solid #0450cc;
+}
+#edit-dashboard{
+    float: right;
+    background: #fff;
+    margin-right: 20px;
+    border: 0;
+    border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    height: 28px;
+    line-height: 28px;
+    min-width: 90px;
+    outline: none;
+    text-align: center;
+    border: 1px solid #b3b3b3;
+}
+
+  .errorPopup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 9999;
+  }
+  
+  .errorContent {
+    font-size: 18px;
+    color: #ff0000;
+  }
