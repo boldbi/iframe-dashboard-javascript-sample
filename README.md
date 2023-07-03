@@ -59,6 +59,8 @@
 
     ![Dashboard_Iframe_js view](https://github.com/boldbi/iframe-dashboard-javascript-sample/assets/129487075/e3ddd24c-91e9-479f-aafe-dc41637d9be0)
 
+Please refer to the [help documentation](https://help.boldbi.com/embedding-options/iframe-embedding/sample/dashboard-embedding/javascript/#how-to-run-the-sample) to know how to run the sample.
+
 ## Important notes
 
 In a real-world application, it is recommended not to store passwords and sensitive information in configuration files for security reasons. Instead, you should consider using a secure application, such as Key Vault, to safeguard your credentials.
