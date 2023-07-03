@@ -3,7 +3,7 @@
   This application aims to demonstrate how to embed the Bold BI dashboard into JavaScript-based web application using an iFrame by integrating the Item Listing, Designing and Viewing modules.
 # Dashboard view
 
- ![Dashboard_Iframe_js view](https://github.com/bold-bi/embedded-bi-samples/assets/129487075/e47694fb-18ab-4437-9a61-b8284369c0d2)
+ ![Dashboard_Iframe_js view](https://github.com/boldbi/iframe-dashboard-javascript-sample/assets/129487075/645a8740-c404-4893-b914-da531a0b4bc1)
 
 ## Prerequisites
 
@@ -31,9 +31,9 @@
     ![Embed Settings Download](https://github.com/boldbi/aspnet-core-sample/assets/91586758/d27d4cfc-6a3e-4c34-975e-f5f22dea6172)
     ![EmbedConfig Properties](https://github.com/boldbi/aspnet-core-sample/assets/91586758/d6ce925a-0d4c-45d2-817e-24d6d59e0d63)
 
-* Copy the downloaded `embedConfig.json` file and paste it into the designated [location](https://github.com/boldbi/iframe-datasource-javascript-sample/tree/master) within the application. Please ensure that you have placed it in the application as shown in the following image.
+* Copy the downloaded `embedConfig.json` file and paste it into the designated [location](https://github.com/boldbi/iframe-dashboard-javascript-sample/tree/master) within the application. Please ensure that you have placed it in the application as shown in the following image.
   
-    ![EmbedConfig image](https://github.com/bold-bi/embedded-bi-samples/assets/129487075/4e42cd3a-b7fa-45a4-bad0-19c3d305ff9f)
+    ![EmbedConfig image](https://github.com/boldbi/iframe-dashboard-javascript-sample/assets/129487075/15db9675-ab67-4478-a89e-4786986a564d)
 
  ## Developer IDE
 
@@ -57,7 +57,7 @@
      
  * Once the server is running, you can open your web browser and navigate to the `DashboardListing.html` file(eg. `http://localhost:5555/DashboardListing.html`).
 
-    ![Dashboard_Iframe_js view](https://github.com/bold-bi/embedded-bi-samples/assets/129487075/e47694fb-18ab-4437-9a61-b8284369c0d2)
+    ![Dashboard_Iframe_js view](https://github.com/boldbi/iframe-dashboard-javascript-sample/assets/129487075/e3ddd24c-91e9-479f-aafe-dc41637d9be0)
 
 ## Important notes
 
