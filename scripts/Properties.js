@@ -1,11 +1,6 @@
-debugger
-var rootUrl = "", siteIdentifier = "", email = "", environment = "", EmbedSecret = "";
+var rootUrl = "", siteIdentifier = "", email = "", environment = "", embedSecret = "";
 var baseUrl = "";
 var dashboardServerApiUrl = "";
-var dataServiceUrl = "";
-var designerServiceUrl = "";
-var designerRootUrl = "";
-var intermediateDbStatus = false;
 var accessToken = "";
 
 // Fetch the JSON file
@@ -19,21 +14,14 @@ fetch('embedConfig.json')
 		siteIdentifier = data.SiteIdentifier;
 		email = data.UserEmail;
 		environment = data.Environment;
-		EmbedSecret = data.EmbedSecret;
+		embedSecret = data.EmbedSecret;
 		if (environment == "onpremise") {
 			baseUrl = rootUrl + "/" + siteIdentifier;
 			dashboardServerApiUrl = rootUrl + "/api/" + siteIdentifier;
-			dataServiceUrl = rootUrl + "/designer/v1.0/datahandler";
-			designerServiceUrl = rootUrl + "/designer/v1.0/design";
-			designerRootUrl = rootUrl + "/designer";
 		}
 		else {
 			baseUrl = rootUrl;
 			dashboardServerApiUrl = rootUrl + "/api";
-			designerRootUrl = rootUrl;
-			dataServiceUrl = designerRootUrl + "/v1.0/datahandler";
-			designerServiceUrl = designerRootUrl + "/v1.0/design";
-
 		}
 		getToken();
 		showDashboardListing();
@@ -61,7 +49,7 @@ function showErrorPopup() {
 function getToken() {
 	var apiRequest = {
 		username: email,
-		embed_secret: EmbedSecret,
+		embed_secret: embedSecret,
 		grant_type: "embed_secret"
 	};
 	$.ajax({
