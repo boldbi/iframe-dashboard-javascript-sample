@@ -1,6 +1,6 @@
 # Dashboard Iframe Embedding with JavaScript
 
-  This application aims to demonstrate how to embed the Bold BI dashboard into JavaScript-based web application using an iFrame by integrating the Dashboards Listing, Designing and Viewing modules.
+  This application aims to demonstrate how to embed the Bold BI dashboard into a JavaScript-based web application using an iFrame by integrating the Dashboards Listing, Designing and Viewing modules.
 # Dashboard view
 
  ![Dashboard_Iframe_js view](https://github.com/boldbi/iframe-dashboard-javascript-sample/assets/129487075/645a8740-c404-4893-b914-da531a0b4bc1)
@@ -31,7 +31,7 @@
   
     ![EmbedConfig image](https://github.com/boldbi/iframe-dashboard-javascript-sample/assets/129487075/15db9675-ab67-4478-a89e-4786986a564d)
 
-## Run a Sample Using Command Line Interface 
+## Run a Sample Using the Command Line Interface 
     
   1. Open the command line interface and navigate to the specified file [location](https://github.com/boldbi/iframe-dashboard-javascript-sample/tree/master) where the project is located.
 
