@@ -1,6 +1,6 @@
 # Dashboard Iframe Embedding with JavaScript
 
-  This application aims to demonstrate how to embed the Bold BI dashboard into JavaScript-based web application using an iFrame by integrating the Item Listing, Designing and Viewing modules.
+  This application aims to demonstrate how to embed the Bold BI dashboard into JavaScript-based web application using an iFrame by integrating the Dashboards Listing, Designing and Viewing modules.
 # Dashboard view
 
  ![Dashboard_Iframe_js view](https://github.com/boldbi/iframe-dashboard-javascript-sample/assets/129487075/645a8740-c404-4893-b914-da531a0b4bc1)
