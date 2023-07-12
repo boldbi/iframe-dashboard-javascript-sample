@@ -31,6 +31,24 @@
   
     ![EmbedConfig image](https://github.com/boldbi/iframe-dashboard-javascript-sample/assets/129487075/15db9675-ab67-4478-a89e-4786986a564d)
 
+## Run a Sample Using Command Line Interface 
+    
+  1. Open the command line interface and navigate to the specified file [location](https://github.com/boldbi/iframe-dashboard-javascript-sample/tree/master) where the project is located.
+
+  2. Run this command in the terminal to install the `http-server` package, which enables the sample to run a local HTTP server.
+
+     ```bash
+        npm install -g http-server
+     ```
+  3. Run this command in the terminal to initiate the HTTP server on a specific port(eg. `http-server -p 5555`)
+   
+     ```bash
+        http-server -p <port number>
+      ```
+     > **NOTE:** Replace `<port number>` with the desired port number
+     
+ * Once the server is running, you can open your web browser and navigate to the `DashboardListing.html` file(eg. `http://localhost:5555/DashboardListing.html`).
+
  ## Developer IDE
 
   * Visual studio code(https://code.visualstudio.com/download)
