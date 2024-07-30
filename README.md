@@ -54,7 +54,7 @@
 
 ## Developer IDE
 
-* Visual studio code(https://code.visualstudio.com/download)
+* Visual studio code(<https://code.visualstudio.com/download>)
   
 ### Run a Sample using Visual Studio Code
 
