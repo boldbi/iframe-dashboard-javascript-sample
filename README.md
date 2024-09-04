@@ -1,18 +1,19 @@
 # Dashboard Iframe Embedding with JavaScript
 
   This application aims to demonstrate how to embed the Bold BI dashboard into a JavaScript-based web application using an iFrame by integrating the Dashboards Listing, Designing and Viewing modules.
-# Dashboard view
+
+## Dashboard view
 
  ![Dashboard_Iframe_js view](https://github.com/boldbi/iframe-dashboard-javascript-sample/assets/129487075/645a8740-c404-4893-b914-da531a0b4bc1)
 
 ## Prerequisites
 
- * [Node.js](https://nodejs.org/en/)
- * [Visual Studio Code](https://code.visualstudio.com/download)
+* [Node.js](https://nodejs.org/en/)
+* [Visual Studio Code](https://code.visualstudio.com/download)
 
  > **NOTE:** Node.js v14.16 to v18.18 are supported.
 
-#### Supported browsers
+### Supported browsers
   
 * Google Chrome, Microsoft Edge, Mozilla Firefox, and Safari.
 
@@ -31,8 +32,8 @@
   
     ![EmbedConfig image](https://github.com/boldbi/iframe-dashboard-javascript-sample/assets/129487075/15db9675-ab67-4478-a89e-4786986a564d)
 
-## Run a Sample Using the Command Line Interface 
-    
+## Run a Sample Using the Command Line Interface
+
   1. Open the command line interface and navigate to the specified file [location](https://github.com/boldbi/iframe-dashboard-javascript-sample/tree/master) where the project is located.
 
   2. Run this command in the terminal to install the `http-server` package, which enables the sample to run a local HTTP server.
@@ -40,36 +41,40 @@
      ```bash
         npm install -g http-server
      ```
+
   3. Run this command in the terminal to initiate the HTTP server on a specific port(eg. `http-server -p 5555`)
-   
+
      ```bash
         http-server -p <port number>
-      ```
+     ```
+
      > **NOTE:** Replace `<port number>` with the desired port number
-     
- * Once the server is running, you can open your web browser and navigate to the `DashboardListing.html` file(eg. `http://localhost:5555/DashboardListing.html`).
 
- ## Developer IDE
+  4. Once the server is running, you can open your web browser and navigate to the `DashboardListing.html` file(eg. `http://localhost:5555/DashboardListing.html`).
 
-  * Visual studio code(https://code.visualstudio.com/download)
+## Developer IDE
+
+* Visual studio code(<https://code.visualstudio.com/download>)
   
 ### Run a Sample using Visual Studio Code
 
- * Open the sample in **Visual studio code**.
+* Open the sample in **Visual studio code**.
 
- * Run this command in the terminal to install the `http-server` package, which enables the sample to run a local HTTP server.
+* Run this command in the terminal to install the `http-server` package, which enables the sample to run a local HTTP server.
 
-     ```bash
+    ```bash
         npm install -g http-server
-     ```
- * Run this command in the terminal to initiate the HTTP server on a specific port(eg. `http-server -p 5555`)
-   
+    ```
+
+* Run this command in the terminal to initiate the HTTP server on a specific port(eg. `http-server -p 5555`)
+
      ```bash
         http-server -p <port number>
-      ```
+     ```
+
      > **NOTE:** Replace `<port number>` with the desired port number
-     
- * Once the server is running, you can open your web browser and navigate to the `DashboardListing.html` file(eg. `http://localhost:5555/DashboardListing.html`).
+
+* Once the server is running, you can open your web browser and navigate to the `DashboardListing.html` file(eg. `http://localhost:5555/DashboardListing.html`).
 
     ![Dashboard_Iframe_js view](https://github.com/boldbi/iframe-dashboard-javascript-sample/assets/129487075/e3ddd24c-91e9-479f-aafe-dc41637d9be0)
 
@@ -86,4 +91,3 @@ Look at the Bold BI Embedding sample to live demo [here](https://samples.boldbi.
 ## Documentation
 
 A complete Bold BI Embedding documentation can be found on [Bold BI Embedding Help](https://help.boldbi.com/embedding-options/iframe-embedding/).
-    
